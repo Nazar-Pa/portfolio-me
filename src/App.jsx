@@ -133,7 +133,7 @@ const About = props => {
               currently based in Germany.
             </p>
             <p>
-              I am working as a Technical Consultant for a global IT company in Germany. I always have passion to learn
+              I always have passion to learn
               things that are required in order to solve tomorrow's productivity problems in this software engineering area. Especially motivated to
               move towards challenges where analytical thinking is crucial thing to find the solution.
             </p>
@@ -146,7 +146,7 @@ const About = props => {
             <h3>What I am able to do?</h3>
             <p className="separator" />
             <p>
-              I have 6+ years of programming and application development experience.
+              I have 7+ years of programming and application development experience.
               Full Stack Developer with a strong focus on frontend development.
               Compatible team player throughout the complete project cycle,
               testing, and final implementation. Excellent communication and
