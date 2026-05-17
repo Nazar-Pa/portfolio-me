@@ -185,7 +185,7 @@ const Project = props => {
   return (
     <div className="project">
       {
-        props.title === 'OnRoad' ? <iframe className='iframe' src='https://onroad.netlify.app/'></iframe> :
+        props.url ? <iframe className='iframe' src={props.url}></iframe> :
           <a className="project-link" target="_blank" rel="noopener noreferrer">
             <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} /></a>
       }
@@ -221,6 +221,41 @@ const Projects = props => {
 
         </div>
         <div className="projects-wrapper">
+          <Project
+            title="autoplus"
+            url="https://2motor.netlify.app/"
+          >
+            <ul className='techs'>
+              <li>
+                <small>
+                  <strong>Frontend: </strong> Angular
+                </small>
+              </li>
+              <li>
+                <small>
+                  <strong>Backend: </strong> Node + Express JS
+                </small>
+              </li>
+              <li>
+                <small>
+                  <strong>Database: </strong> Amazon RDS service for PostgreSQL
+                </small>
+              </li>
+            </ul>
+            <p>
+              <strong>Automotive Marketplace</strong>
+              <br />
+              A full-featured car listings platform built with Angular 21 in an Nx monorepo, featuring a clean separation of concerns across feature libraries and a shared data-access layer.
+              <br />
+              <strong>Tech highlights:</strong>
+              <br />
+              Angular Signals for reactive state management — no NgRx, lean and modern
+              Lazy-loaded routes for all major pages (home, search, details, favorites, searches)
+              HTTP interceptors handling auth tokens and CSRF automatically
+              Playwright for E2E tests, Vitest for unit tests. Link for demo:
+              <a href='https://2motor.netlify.app/' target="_blank"> https://2motor.netlify.app/</a>
+            </p>
+          </Project>
           <Project
             title="AI Fitness Tracker"
             img={aiFitnessTracker}
