@@ -4,6 +4,7 @@ import './App.css'
 import chatbot from './chatbot.png';
 import ontheway from './ontheway.png'
 import aiFitnessTracker from './aiFitnessTracker.png'
+import audiobookextracter from './audio-book-extracter.jpg'
 import dreamart from './dreamart.jpg';
 import certificate from './certificate.jpg';
 import prof from './prof1.jpg';
@@ -221,9 +222,25 @@ const Projects = props => {
 
         </div>
         <div className="projects-wrapper">
+
+          <Project
+            title="Audio-book extracter"
+            img={audiobookextracter}
+          >
+            <p>
+              <br />
+              A full-stack web application that converts English PDF books into audiobooks using the browser's built-in Text-to-Speech engine. Upload a PDF, and the app extracts the text, stores the book locally in your browser, and reads it aloud — no cloud TTS service, no audio files, no ongoing cost.
+              <br />
+              <strong>Tech highlights:</strong>
+              <br />
+              Angular, Tailwind CSS, Typescript, Web Speech API, IndexedDB, RxJS. Python, FastAPI, pdfplumber, langdetect, pydantic and python-multipart.
+              <a href='https://github.com/Nazar-Pa/audio-book-extracter' target="_blank">https://github.com/Nazar-Pa/audio-book-extracter</a>
+            </p>
+          </Project>
+
           <Project
             title="autoplus"
-            url="https://2motor.netlify.app/"
+            url="https://masinim.com/"
           >
             <ul className='techs'>
               <li>
@@ -252,8 +269,8 @@ const Projects = props => {
               Angular Signals for reactive state management — no NgRx, lean and modern
               Lazy-loaded routes for all major pages (home, search, details, favorites, searches)
               HTTP interceptors handling auth tokens and CSRF automatically
-              Playwright for E2E tests, Vitest for unit tests. Link for demo:
-              <a href='https://2motor.netlify.app/' target="_blank"> https://2motor.netlify.app/</a>
+              Playwright for E2E tests, Vitest for unit tests. Link for the app:
+              <a href='https://masinim.com/' target="_blank">https://masinim.com/</a>
             </p>
           </Project>
           <Project
