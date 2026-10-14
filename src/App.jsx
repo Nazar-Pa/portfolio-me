@@ -262,15 +262,14 @@ const Projects = props => {
             <p>
               <strong>Automotive Marketplace</strong>
               <br />
-              A full-featured car listings platform built with Angular 21 in an Nx monorepo, featuring a clean separation of concerns across feature libraries and a shared data-access layer.
+              A full-featured car listings platform built with Angular 22 in an Nx monorepo, featuring a clean separation of concerns across feature libraries and a shared data-access layer.
               <br />
               <strong>Tech highlights:</strong>
               <br />
               Angular Signals for reactive state management — no NgRx, lean and modern
               Lazy-loaded routes for all major pages (home, search, details, favorites, searches)
               HTTP interceptors handling auth tokens and CSRF automatically
-              Playwright for E2E tests, Vitest for unit tests. Link for the app:
-              <a href='https://masinim.com/' target="_blank">https://masinim.com/</a>
+              Playwright for E2E tests, Vitest for unit tests. Link for the app: <a href='https://masinim.com/' target="_blank">https://masinim.com/</a>
             </p>
           </Project>
           <Project
