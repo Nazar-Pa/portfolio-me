@@ -8,7 +8,7 @@ import audiobookextracter from './audio-book-extracter.jpg'
 import dreamart from './dreamart.jpg';
 import certificate from './certificate.jpg';
 import prof from './prof1.jpg';
-import CV from './Nazar_Pashayev_Software_Engineer_CV_2026.docx'
+import CV from './Nazar_Pashayev_Software_Engineer_CV_2026.pdf'
 // import emailjs from '@emailjs/browser'
 // import axios from 'axios'
 
